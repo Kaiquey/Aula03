@@ -1,0 +1,50 @@
+*{
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+body{
+    background-color: grey;
+}
+header{
+    background-color: aqua;
+    display: flex;
+}
+header h1{
+    padding: 2px 20px;
+}
+
+li{
+    margin-top: 14px;
+}
+.Produtos{
+   padding: 15px 3px;
+}
+
+.tabela{
+    display: flex;
+    width: 800px;
+    align-items: center;
+    justify-content: center;
+}
+table, td,tr{
+    border: none;
+    margin-top: 3px;
+    border: 3px solid white;
+    border-collapse: collapse;
+    padding: 2px 14px;
+}
+img{
+    width: 40px;
+}
+footer{
+    display: flex;
+    width: 100%;
+    margin-top: 9px;
+    border: 1px solid white;
+}
+footer p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+   
+}
